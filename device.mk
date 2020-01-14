@@ -20,7 +20,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 #Dalvik Heap's
-$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
